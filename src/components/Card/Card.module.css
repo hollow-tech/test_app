@@ -1,0 +1,63 @@
+.card_wrapper {
+	
+}
+
+.card {
+	margin: 0px 15px 25px 0px;
+	flex: 0 0 calc(33.33% - 10px);
+	display: flex;
+	width: 357px;
+	height: 314px;
+	padding: 24px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+
+
+	border-radius: 16px;
+	background: #FFF;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+	font-family: 'Proxima Nova', sans-serif;
+}
+
+.name {
+	color: var(--plumbum, #262C40);
+	text-align: center;
+	
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px; 
+}
+
+.phone {
+	display: flex;
+align-items: center;
+gap: 14px;
+
+
+color: var(--Asphalt, #8189A3);
+text-align: center;
+
+font-family: 'Proxima Nova', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+
+.email {
+display: flex;
+
+gap: 14px;
+
+color: var(--Asphalt, #8189A3);
+text-align: center;
+
+font-family: Proxima Nova;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}

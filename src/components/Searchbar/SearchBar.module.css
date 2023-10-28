@@ -1,0 +1,25 @@
+.input {
+  margin-top: 50px;
+  margin-bottom: 32px;
+  outline: none;
+  box-sizing: border-box;
+  padding: 10px 24px;
+  transition: 0.2s ease-in-out;
+
+  width: 1120px;
+  height: 48px;
+  flex-shrink: 0;
+
+  border-radius: 24px;
+  border: 1px solid var(--Blueberry, #d4defe);
+  background-image: url("./search.svg");
+  background-position: calc(100% - 24px) center;
+  background-repeat: no-repeat;
+
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.input:focus {
+  transition: 0.2s ease-in-out;
+  border: 1px solid #5d7dbb;
+}
